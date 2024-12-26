@@ -1,0 +1,90 @@
+nav {
+  background-color: #0d0d0d;
+  font-family: "Kanit", sans-serif;
+}
+
+.container-fluid {
+  padding: 0 150px 0;
+
+  .navbar-brand {
+    font-weight: bold;
+    color: #ccc;
+  }
+
+  .navbar-nav {
+    .nav-item {
+      margin-right: 20px;
+
+      a {
+        color: #ccc;
+      }
+    }
+  }
+
+  .d-flex {
+    gap: 10px;
+  }
+
+  .login-btn {
+    margin-left: 20px;
+    width: 90px;
+    letter-spacing: 1px;
+    padding: 9px 20px 10px;
+    color: #ccc;
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    border: 1px solid rgba(250, 250, 250, 0.2);
+    cursor: pointer;
+    transition: 0.15s ease;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .login-btn:hover {
+    border: 1px solid #dcff00;
+    background-color: transparent;
+    color: #dcff00;
+  }
+
+  .signup-btn {
+    letter-spacing: 1px;
+    padding: 9px 20px 10px;
+    background-color: rgba(250, 250, 250, 0.1);
+    color: #ccc;
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    border: 1px solid rgba(250, 250, 250, 0.2);
+    cursor: pointer;
+    transition: 0.15s ease;
+    font-size: 14px;
+  }
+
+  .signup-btn:hover {
+    background-color: #dcff00;
+    color: #0d0d0d;
+  }
+
+  .dropdown {
+    .avatar-btn {
+      background-color: transparent;
+      color: #ccc;
+      border: none;
+    }
+
+    .user-avatar {
+      color: #ccc;
+      font-size: 24px;
+    }
+
+    .dropdown-menu {
+      .dropdown-item {
+        background: transparent;
+
+        i {
+          font-size: 18px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
